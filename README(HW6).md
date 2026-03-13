@@ -5,8 +5,8 @@
 
 # Ai stuff: 
 ## Input: “Draft renderList(data) that returns an HTML string. Do not mutate input. Add three console.assert lines. Explain how each assert proves correctness.”
-## function renderList(data) {
-```javascript 
+```javascript
+function renderList(data) { 
   // Read only from input; do not mutate
   const items = data.map(item => `<li>${item}</li>`).join("");
   return `<ul>${items}</ul>`;
