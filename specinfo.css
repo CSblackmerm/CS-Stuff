@@ -1,0 +1,33 @@
+/* === CS275 styles.css starter ===*/
+
+body {
+  background: #f0f2f5; 
+  color: #111;
+}
+
+#hero {
+  text-transform: uppercase;
+}
+title {
+  text-align:center;
+}
+
+.Le-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-block: 1rem;
+}
+
+.card {
+  background: white;
+  border: 2px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  /* Students adjust these: */
+  width: 500px;
+  display: inline-block; /* key concept for this class */
+}
+/* Nav links (optional polish) */
+.nav-link { margin-right: .75rem; color: #334; text-decoration: none; }
+.nav-link:hover { text-decoration: underline; }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./css/indivualStyle.css" /> 
+  <title>Interactive List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #fef5e7; /* Light beige */
+        }
+        header {
+            background-color: #d68a3d; /* Pumpkin orange */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .column {
+            background-color: #fff8e1; /* Light cream */
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 45%;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #a0522d; /* Saddle brown */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Sherry Birkin</h1>
+    </header>
+    <section class="card" aria-label="Le-card">
+        <h3>Games Appeared:</h3>
+        <ul id="list">
+            <li><a href = http://127.0.0.1:3000/Final_folder/Sherry_RE2.html>Resident Evil 2 </a></li>
+            <li><a href = http://127.0.0.1:3000/Final_folder/Sherry_RE2R.html>Resident Evil 2 Remake</a></li>
+            <li><a href = >Resident Evil 6</a></li>
+            <li><a href = http://127.0.0.1:3000/Final_folder/Sherry_RE9.html>Resident Evil Requiem/9</a></li>
+
+        </ul>
+</section> 
+
+
+  <div>
+    <input type="text" id="GameInput" placeholder="Enter new game">
+    <button onclick="addItem()">Add Game </button>
+  </div>
+  
+<h4>Ps. Any changes made on here are for interactive purposes only, email me at 
+    <b>3RSAccousticssnakes@gmail.com</b> to contact me over any perment changes
+</h4>
+  <script src="indivualJS.js"></script>
+</body>
+</html>

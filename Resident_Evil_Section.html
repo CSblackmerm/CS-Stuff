@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #fef5e7; /* Light beige */
+        }
+        header {
+            background-color: #d68a3d; /* Pumpkin orange */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+    </style>
+</head>
+<body>
+  <header>
+  <h1>Resident Evil Characters: </h1>
+  </header>
+  <ul id="list">
+    <li><a href = http://127.0.0.1:3000/Final_folder/Claire_Redfield.html>Claire Redfield </a></li>
+    <li><a href = http://127.0.0.1:3000/Final_folder/Chris_Redfield.html>Chris Redfield </a></li>
+    <li><a href = http://127.0.0.1:3000/Final_folder/Leon_S_Kennedy.html>Leon S Kennedy </a></li>
+    <li><a href = http://127.0.0.1:3000/Final_folder/Sherry_Birkin.html>Sherry Birkin </a></li>
+    <li><a href = >Ada Wong </a></li>
+  </ul>
+  <div>
+    <input type="text" id="itemInput" placeholder="Enter new item">
+    <button onclick="addItem()">Add Character</button>
+  </div>
+  <h5>Ps. Any changes made on here are for interactive purposes only, email me at 
+    <b>3RSAccousticssnakes@gmail.com</b> to contact me over any perment changes</h5>
+  <script src="GameJS.js"></script>
+</body>
+</html>
